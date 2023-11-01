@@ -6,9 +6,6 @@ def longest_substring(s: str) -> str:
     :returns: Longest substring.
     :rtype: str
     """
-    if len(s) == 0:
-        return 0
-
     last_seen = {}
     max_len = max_start = start = 0
 
